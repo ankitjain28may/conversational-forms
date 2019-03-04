@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.signup-img {
+  position: fixed;
+}
+
+.signup-form {
+  margin-left: 50%;
+}
+
+#conversational-form {
+    width: 50%;
+    position: absolute;
+    right: 0 !important;
+    left: 50%;
+}
+
+.robot text {
+  color: #222;
+  font-weight: 900;
+  min-height: 42px;
+  font-size: 13px;
+}
+
+.robot text>p {
+    background-color: #ebebeb;
+}
+cf-chat-response.user text {
+    color: #fff;
+    font-weight: 900;
+    min-height: 42px;
+    font-size: 13px;
+}
+textarea {
+    color: #222 !important;
+}
+cf-chat-response.user text>p {
+    background-color: #222 !important;
+}
+
+cf-input-button {
+    background: #222 !important;
+    border: none !important;
+    color: #fff !important;
+}
